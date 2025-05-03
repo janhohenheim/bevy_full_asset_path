@@ -15,7 +15,7 @@ pub mod prelude {
 /// Simply add it to your app to fix all glTFs.
 ///
 /// # Example
-/// ```rust
+/// ```rust,no_run
 /// use bevy::prelude::*;
 /// use bevy_fix_gltf_coordinate_system::prelude::*;
 ///

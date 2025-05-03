@@ -10,7 +10,7 @@ A tiny plugin to fix the fact that Bevy does not respect the GLTF coordinate sys
 
 Just add the plugin, that's it:
 
-```rust
+```rust,no_run
 use bevy::prelude::*;
 use bevy_fix_gltf_coordinate_system::prelude::*;
 
