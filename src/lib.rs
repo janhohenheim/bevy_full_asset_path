@@ -60,6 +60,7 @@ fn fix_gltf_coordinates(
         return;
     }
 
+    // Only rotate the immediate children of the scene root. Those correspond to the glTF nodes.
     let mut iter = q_transform.iter_many_mut(children);
     while let Some(mut transform) = iter.fetch_next() {
         transform.rotate_y(PI);
