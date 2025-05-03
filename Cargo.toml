@@ -1,0 +1,19 @@
+[package]
+name = "bevy_fix_gltf_coordinate_system"
+version = "0.1.0"
+authors = ["Jan Hohenheim <jan@hohenheim.ch>"]
+edition = "2024"
+exclude = ["./assets/"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/janhohenheim/bevy_fix_gltf_coordinate_system"
+description = "A tiny plugin to fix the fact that Bevy does not respect the GLTF coordinate system"
+keywords = ["bevy", "gltf", "fix", "scene"]
+categories = ["game-development"]
+
+[dependencies.bevy]
+version = "0.16.0"
+default-features = false
+features = ["bevy_scene"]
+
+[dev-dependencies.bevy]
+version = "0.16.0"
