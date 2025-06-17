@@ -1,7 +1,7 @@
 # bevy_full_asset_path
 
-[![crates.io](https://img.shields.io/crates/v/bevy_fix_gltf_coordinate_system)](https://crates.io/crates/bevy_fix_gltf_coordinate_system)
-[![docs.rs](https://docs.rs/bevy_fix_gltf_coordinate_system/badge.svg)](https://docs.rs/bevy_fix_gltf_coordinate_system)
+[![crates.io](https://img.shields.io/crates/v/bevy_full_asset_path)](https://crates.io/crates/bevy_full_asset_path)
+[![docs.rs](https://docs.rs/bevy_full_asset_path/badge.svg)](https://docs.rs/bevy_full_asset_path)
 
 A tiny plugin that allows reading the full asset path of an asset loaded from disk
 
