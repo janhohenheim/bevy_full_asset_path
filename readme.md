@@ -3,7 +3,7 @@
 [![crates.io](https://img.shields.io/crates/v/bevy_full_asset_path)](https://crates.io/crates/bevy_full_asset_path)
 [![docs.rs](https://docs.rs/bevy_full_asset_path/badge.svg)](https://docs.rs/bevy_full_asset_path)
 
-A tiny plugin that allows reading the full asset path of an asset loaded from disk
+A tiny plugin that allows reading the full filesystem path of an asset loaded from disk
 
 
 ## Usage
