@@ -1,19 +1,23 @@
 [package]
-name = "bevy_fix_gltf_coordinate_system"
+name = "bevy_full_asset_path"
 version = "0.1.0"
 authors = ["Jan Hohenheim <jan@hohenheim.ch>"]
 edition = "2024"
 exclude = ["./assets/"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/janhohenheim/bevy_fix_gltf_coordinate_system"
-description = "A tiny plugin to fix the fact that Bevy does not respect the GLTF coordinate system"
-keywords = ["bevy", "gltf", "fix", "scene"]
+repository = "https://github.com/janhohenheim/bevy_full_asset_path"
+description = "Allows reading the full asset path of an asset loaded from disk"
+keywords = ["bevy", "asset", "path", "filesystem"]
 categories = ["game-development"]
+readme = "readme.md"
+
+[dependencies]
+thiserror = "2.0.12"
 
 [dependencies.bevy]
-version = "0.16.0"
+version = "0.16.1"
 default-features = false
-features = ["bevy_scene"]
+features = ["bevy_asset"]
 
 [dev-dependencies.bevy]
-version = "0.16.0"
+version = "0.16.1"
